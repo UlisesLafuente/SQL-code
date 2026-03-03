@@ -288,7 +288,7 @@ INNER JOIN
 ON
     fabricante.codigo = producto.codigo_fabricante;
 
--- 34. Returns a list of all the manufacturers that exist in the database, along with the products that each of them has. It also includes manufacturers that do not have any products. Shows the name of the manufacturer (manufacturer) and the name of the product (product).
+-- 34. Returns a list of all the manufacturers that exist in the database, along with the products that each of them has. It also includes manufacturers that do not have any products. Shows the name of the manufacturer (fabricante) and the name of the product (product).
 
 SELECT
     f.nombre AS fabricante,
